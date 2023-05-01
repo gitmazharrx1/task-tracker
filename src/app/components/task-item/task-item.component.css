@@ -1,0 +1,16 @@
+.task{
+  background-color: gainsboro;
+  border: 1px solid;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.iconstyle{
+  color: red;
+  font-size: 2em;
+}
+.task.reminder{
+  border-left: 10px solid green;
+}
